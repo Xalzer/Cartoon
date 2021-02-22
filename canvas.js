@@ -154,6 +154,14 @@ drawImage();
       ctx.fill();
   }
   leaves();
+//words
+function word() {
+    ctx.font = "30px Comic Sans MS";
+    ctx.textAlign = "center";
+    ctx.strokeText("My Cartoon",canvas.width/2, canvas.height/2);
+    ctx.fill();
+   }
+   word();
 
   ctx.globalAlpha = 0.2;
   for (var i = 0; i < 7; i++) {

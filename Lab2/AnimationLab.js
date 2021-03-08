@@ -23,3 +23,4 @@ image.onload = function() {
         
     }
 }
+// click on button function
